@@ -1,8 +1,7 @@
 # dotfiles
 
-Personal dotfiles used on my Acer C720 running Arch Linux.  
-bspwm, terminator, dmenu
+Personal dotfiles used on my Acer C720 running Arch Linux.
 
 ## scrot
 
-![clean](scrot.png)
+![scrot](scrot.png)
