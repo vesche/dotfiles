@@ -8,7 +8,6 @@ URxvt.scrollBar: false
 ! special
 *.foreground:   #faebd7
 *.background:   #000000
-! *.background:	#272922
 *.cursorColor:  #faebd7
 
 ! black
