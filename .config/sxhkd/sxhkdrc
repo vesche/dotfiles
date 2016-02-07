@@ -84,7 +84,7 @@ super + Return
 	terminator
 
 super + space
-	dmenu_run -b -nb \#272822 -nf \#faebd7 -fn 'profont-11'
+	dmenu_run -b -nb \#000000 -nf \#faebd7 -fn 'profont-11'
 
 super + 1
 	firefox
