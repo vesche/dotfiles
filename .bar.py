@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 # bar.py - minimal lemonbar script by vesche
 
-import os
-import time
+from os import popen, system
+from time import sleep
 
 def read_cmd(cmd):
-    return os.popen(cmd).read()
+    return popen(cmd).read()
 
 # bar funcs
 def bat():
@@ -47,5 +47,5 @@ def main():
 
 if __name__ == "__main__":
     while True:
-        os.system('buf=\"%%{c}%s\"; echo -e $buf' % main())
-        time.sleep(1)
+        system('buf=\"%%{c}%s\"; echo -e $buf' % main())
+        sleep(1)
