@@ -12,6 +12,8 @@ alias vi='vim'
 alias top='htop'
 alias ccat='pygmentize -g -O style=colorful,linenos=1'
 alias httpserver='sudo python2 -m SimpleHTTPServer 80'
+alias vpnon='systemctl start openvpn-client@air.service'
+alias vpnoff='systemctl stop openvpn-client@air.service'
 
 PS1='[\u@\h \W]\$ '
 
