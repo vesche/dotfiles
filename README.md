@@ -1,4 +1,4 @@
-My dotfiles <3. I keep it stupid simple and very minimal.
+My dotfiles <3. I keep it simple stupid and very minimal.
 
 * Hardware: [Acer C720](http://a.co/b6lg7tR)
 * OS: [Arch Linux](https://www.archlinux.org/)
