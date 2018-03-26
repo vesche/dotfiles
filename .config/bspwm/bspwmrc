@@ -11,6 +11,7 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config focus_by_distance    true
 bspc config history_aware_focus  true
+bspc config click_to_focus       button1
 
 bspc monitor -d I II III IV
 
