@@ -14,8 +14,22 @@ alias ccat='pygmentize -g -O style=colorful,linenos=1'
 alias httpserver='sudo python2 -m SimpleHTTPServer 80'
 alias vpnon='systemctl start openvpn-client@air.service'
 alias vpnoff='systemctl stop openvpn-client@air.service'
+alias search='sudo find / -name'
+alias dictionary='sdcv'
+alias i3lock='i3lock -f -i /home/vesche/pics/wallpapers/wallhaven-72617.png'
+alias steam="LD_PRELOAD='/usr/lib/libstdc++.so.6 /usr/lib/libgcc_s.so.1 /usr/lib/libxcb.so.1 /usr/lib/libgpg-error.so' /usr/bin/steam"
+alias hr='printf $(printf "\e[$(shuf -i 91-97 -n 1);1m%%%ds\e[0m\n" $(tput cols)) | tr " " ='
+alias twitch='streamlink-gui'
+alias python='python3'
 
 PS1='[\u@\h \W]\$ '
+
+# go
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+# rust
+PATH=$PATH:$HOME/.cargo/bin
 
 streaming() {
     INRES="1920x1080" # input resolution

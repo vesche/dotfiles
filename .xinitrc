@@ -1,4 +1,4 @@
-nitrogen --restore
+nitrogen --set-centered /home/vesche/pics/wallpapers/wall3.jpg
 xrdb -merge ~/.Xresources
-python2 /home/vesche/.bar.py | lemonbar -B \#1f1e1b -F \#8E8F93 -f -*-profont-*-*-*-*-14-*-*-*-*-*-*-* &
+python2 /home/vesche/.bar.py | lemonbar -B \#000000 -F \#faebd7 -f "Source Code Pro Medium" &
 exec bspwm
