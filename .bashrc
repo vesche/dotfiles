@@ -11,16 +11,18 @@ alias grep='grep --color=auto'
 alias vi='vim'
 alias top='htop'
 alias ccat='pygmentize -g -O style=colorful,linenos=1'
-alias httpserver='sudo python2 -m SimpleHTTPServer 80'
-alias vpnon='systemctl start openvpn-client@air.service'
-alias vpnoff='systemctl stop openvpn-client@air.service'
+alias httpserver='sudo python -m http.server'
 alias search='sudo find / -name'
 alias dictionary='sdcv'
-alias i3lock='i3lock -f -i /home/vesche/pics/wallpapers/wallhaven-72617.png'
+alias i3lock='i3lock -t -i /home/vesche/pics/lock.png'
 alias steam="LD_PRELOAD='/usr/lib/libstdc++.so.6 /usr/lib/libgcc_s.so.1 /usr/lib/libxcb.so.1 /usr/lib/libgpg-error.so' /usr/bin/steam"
 alias hr='printf $(printf "\e[$(shuf -i 91-97 -n 1);1m%%%ds\e[0m\n" $(tput cols)) | tr " " ='
 alias twitch='streamlink-gui'
 alias python='python3'
+alias mullvad='sudo MULLVAD_USE_GTK3=yes mullvad'
+alias getproxies='curl -k https://proxy.l337.tech/txt'
+alias pictures='geeqie'
+alias infolder='ls | grep -i'
 
 PS1='[\u@\h \W]\$ '
 
@@ -42,7 +44,7 @@ streaming() {
     QUALITY="ultrafast"  # one of the many FFMPEG preset
     AUDIO_RATE="44100"
     STREAM_KEY="$1" # use the terminal command Streaming streamkeyhere to stream your video to twitch or justin
-    SERVER="live-jfk" # twitch server in frankfurt, see http://bashtech.net/twitch/ingest.php for list
+    SERVER="live-jfk" # twitch server, see http://bashtech.net/twitch/ingest.php for list
     
     ffmpeg -f x11grab -s "$INRES" -r "$FPS" -i :0.0 -f alsa -i pulse -f flv -ac 2 -ar $AUDIO_RATE \
       -vcodec libx264 -g $GOP -keyint_min $GOPMIN -b:v $CBR -minrate $CBR -maxrate $CBR -pix_fmt yuv420p\
