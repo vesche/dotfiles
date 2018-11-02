@@ -1,4 +1,4 @@
-nitrogen --set-centered /home/vesche/pics/wallpapers/wall3.jpg
 xrdb -merge ~/.Xresources
-python2 /home/vesche/.bar.py | lemonbar -B \#000000 -F \#faebd7 -f "Source Code Pro Medium" &
+xrandr --output HDMI2 --mode 1920x1080 --right-of HDMI1
+polybar_launch.sh &
 exec bspwm
