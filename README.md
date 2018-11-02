@@ -16,4 +16,8 @@ My dotfiles <3. I keep it simple stupid and very minimal.
 * Launcher: [dmenu](https://wiki.archlinux.org/index.php/Dmenu)
 * Background: [nitrogen](https://wiki.archlinux.org/index.php/Nitrogen)
 
+### Desktop
 ![scrot](scrot.png)
+
+### Laptop
+![scrot](scrot_laptop.png)
