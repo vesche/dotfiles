@@ -13,13 +13,6 @@ bspc config focus_by_distance    true
 bspc config history_aware_focus  true
 bspc config click_to_focus       button1
 
-# tmp
-# bspc config pointer_action1 move
-bspc config pointer_modifier mod1
-bspc config pointer_action1 move
-bspc config pointer_action2 resize_corner
-
-bspc monitor HDMI1 -d I   II  III IV V
-bspc monitor HDMI2 -d VI VII VIII IX X
+bspc monitor -d I II III IV
 
 /usr/bin/urxvt
