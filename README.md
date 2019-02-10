@@ -20,4 +20,4 @@ My dotfiles <3. I keep it simple stupid and very minimal.
 ![scrot](scrot.png)
 
 ### Laptop
-![scrot](scrot_laptop.png)
+![scrot](laptop/scrot_laptop.png)
