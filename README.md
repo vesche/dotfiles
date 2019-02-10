@@ -1,12 +1,14 @@
 My dotfiles <3. I keep it simple stupid and very minimal.
 
-* Hardware: [Acer C720](http://a.co/b6lg7tR)
+* Hardware (Laptop): [Acer C720](http://a.co/b6lg7tR)
+* Hardware (Desktop): [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)
 * OS: [Arch Linux](https://www.archlinux.org/)
 * Window Manager: [bspwm](https://github.com/baskerville/bspwm)
 * Terminal: [urxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode) ([rxvt-unicode-patched](https://aur.archlinux.org/packages/rxvt-unicode-patched/))
 * Shell: [bash](https://www.gnu.org/software/bash/)
-* Font: [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
-* Text Editor: [vim](https://www.vim.org/)
+* Font (Laptop): [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+* Font (Desktop): [ProFont](https://en.wikipedia.org/wiki/ProFont) (Desktop)
+* Text Editor: [vim](https://www.vim.org/) & [Virtual Studio Code](https://code.visualstudio.com/)
 * Web Browser: [Firefox](https://www.mozilla.org/en-US/firefox/new/)
     * [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/)
     * [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
