@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 
 """
-.laptopbar.py - personal minimal lemonbar script for my Acer C720
+.bar.py - personal minimal lemonbar script for my Acer C720
 https://github.com/vesche/dotfiles
 """
 
