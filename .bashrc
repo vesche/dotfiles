@@ -32,3 +32,6 @@ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 
 # rust
 PATH=$PATH:$HOME/.cargo/bin
+
+# python
+PATH=$PATH:$HOME/.local/bin
