@@ -41,7 +41,7 @@ def day():
 
 
 def net():
-    net_name = read_cmd('iwconfig wlp1s0').split()[3].split(':')[1].strip('"')
+    net_name = read_cmd('iwconfig wlp3s0').split()[3].split(':')[1].strip('"')
     return 'NET: {0}'.format(net_name)
 
 

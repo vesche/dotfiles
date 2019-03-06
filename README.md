@@ -13,6 +13,7 @@ My dotfiles <3. I keep it simple stupid and very minimal.
     * [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/)
     * [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
     * [Imagus](https://addons.mozilla.org/en-US/firefox/addon/imagus/)
+    * [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 * Bar (Desktop): [polybar](https://github.com/jaagr/polybar)
 * Bar (Laptop): [lemonbar](https://github.com/LemonBoy/bar) ([lemonbar-xft-git](https://aur.archlinux.org/packages/lemonbar-xft-git/))
 * Launcher: [dmenu](https://wiki.archlinux.org/index.php/Dmenu)
