@@ -1,4 +1,6 @@
-My dotfiles <3. I keep it simple stupid and very minimal.
+These are old, I've been using a Lenovo ThinkPad T480 as of late 2018. [t480 dotfiles repo here](https://github.com/vesche/t480).
+
+My dotfiles. I keep it simple stupid and very minimal.
 
 * Hardware (Laptop): [Acer C720](http://a.co/b6lg7tR)
 * Hardware (Desktop): [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)
